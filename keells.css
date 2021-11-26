@@ -28,7 +28,7 @@
     background-clip: content-box;
     background-repeat: no-repeat;
     background-position: left;
-    background-image: url(https://vihanga-liyanage.github.io/asgardeo-keells/welcome_background.webp), radial-gradient(at 80% 80%, #fafafa,var(--primaryColor));
+    background-image: url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg), radial-gradient(at 80% 80%, #fafafa,var(--primaryColor));
 }
 
 /* Error Page with Blurred Patch */
