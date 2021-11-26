@@ -31,6 +31,14 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
 }
 
+.login-portal.layout .page-wrapper .error-page {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
+}
+
+.login-portal.layout .page-wrapper .success-page {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
+}
+
 /* Logo */
 .login-portal.layout .center-segment .portal-logo img {
     margin-bottom: 1em;
