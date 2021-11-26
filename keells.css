@@ -24,8 +24,11 @@
 
 /* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
-    background: rgba(1,6,56,0);
-    background: linear-gradient(180deg,rgba(1,6,56,0), var(--backgroundColor));
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(https://vihanga-liyanage.github.io/asgardeo-keells/welcome_background.webp), radial-gradient(at 80% 80%, #fafafa,var(--primaryColor));
 }
 
 /* Error Page with Blurred Patch */
