@@ -31,11 +31,23 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
 }
 
-.login-portal.layout .page-wrapper .error-page {
+/* Error Page with Blurred Patch */
+.login-portal.layout .page-wrapper.error-page {
+    /* background: radial-gradient(circle at 68% 47%,rgba(217,88,88,.21840258) 0%, var(--backgroundColor) 25%, var(--backgroundColor) 100%); */
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: left;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
 }
 
-.login-portal.layout .page-wrapper .success-page {
+/* Success Page with Blurred Patch */
+.login-portal.layout .page-wrapper.success-page {
+    /* background: radial-gradient(circle at 70% 47%, rgba(0,167,157,0.1852182262569832) 0%, var(--backgroundColor) 25%, var(--backgroundColor) 100%); */
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: left;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
 }
 
