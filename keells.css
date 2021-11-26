@@ -31,16 +31,6 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://vihanga-liyanage.github.io/asgardeo-keells/bg.jpg);
 }
 
-/* Error Page with Blurred Patch */
-.login-portal.layout .page-wrapper.error-page {
-    background: radial-gradient(circle at 50% 50%,rgba(217,88,88,.21840258) 0%, var(--backgroundColor) 40%, var(--backgroundColor) 100%);
-}
-
-/* Success Page with Blurred Patch */
-.login-portal.layout .page-wrapper.success-page {
-    background: radial-gradient(circle at 50% 50%, rgba(0,167,157,0.1852182262569832) 0%, var(--backgroundColor) 40%, var(--backgroundColor) 100%);
-}
-
 /* Logo */
 .login-portal.layout .center-segment .portal-logo img {
     margin-bottom: 1em;
