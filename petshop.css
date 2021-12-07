@@ -102,5 +102,5 @@ a:hover {
 }
 
 .text-typography.primary, .consent-item-bullet {
-    color: var(--primaryColor);
+    color: var(--primaryColor) !important;
 }
