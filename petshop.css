@@ -1,0 +1,106 @@
+:root {
+    --primaryColor: #a760e6;
+    --primaryColorDarker: #612b91;
+    --backgroundColor: #bc87eb;
+    --accentColor: #a700c9;
+    --borderColor: #4c2b50;
+    --buttonTextColor: #fefefe;
+}
+
+/*-----------------------------
+       Page Background
+------------------------------*/
+
+/* Default Page */
+.login-portal.layout {
+    background-color: var(--backgroundColor);
+}
+
+/* Default Page with Blurred Patch */
+.login-portal.layout .page-wrapper {
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(https://ayshsandu.github.io/asgardeo-trial-artifacts/pets-store-styles/bg.4c3ef038.png), radial-gradient(at 80% 80%, #fafafa,var(--primaryColor));
+}
+
+/* Error, Success Pages */
+.login-portal.layout .page-wrapper.success-page, .login-portal.layout .page-wrapper.error-page {
+    /* background: radial-gradient(circle at 68% 47%,rgba(217,88,88,.21840258) 0%, var(--backgroundColor) 25%, var(--backgroundColor) 100%); */
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(https://ayshsandu.github.io/asgardeo-trial-artifacts/pets-store-styles/bg.4c3ef038.png), radial-gradient(at 80% 80%, #fafafa,var(--primaryColor));
+}
+
+/* Buttons */
+.ui.primary.button {
+    background: var(--primaryColor) !important;
+    color: var(--buttonTextColor) !important;
+}
+
+.login-portal.layout .segment-form .ui.large.fluid.button.link-button {
+    background: transparent;
+    color: var(--backgroundColor);
+}
+
+/* Login Box */
+.login-portal.layout .clickable-link {
+    color: var(--primaryColor);
+}
+
+.login-portal.layout .segment-form .ui.large.form {
+    margin-bottom: 0;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    padding-bottom: 1.8em;
+}
+
+/* Footer */
+.login-portal.layout .footer {
+    border-top: 1px solid var(--borderColor);
+}
+
+/* Anchor Tags */
+a {
+    color: var(--primaryColor);
+}
+
+a:hover {
+    color: var(--primaryColorDarker) !important;
+}
+
+/*-----------------------------
+     Error & Success Pages
+------------------------------*/
+
+/* Remove the margin in error page heading */
+.login-portal.layout .page-wrapper.error-page .slogan-container .slogan-message {
+    margin-top: 10px;
+}
+
+/* Remove the margin in success page heading */
+.login-portal.layout .page-wrapper.success-page .slogan-container .slogan-message {
+    margin-top: 10px;
+}
+
+
+.login-portal.layout .footer .ui.text.menu .item {
+    color: #231224;
+}
+
+.ui.form .field.field input:-webkit-autofill {
+    box-shadow: 0 0 0 100px ivory inset!important;
+    border-color: #d7a1e5!important;
+}
+
+.login-portal {
+    font-family: 'Fantacy';
+}
+
+.text-typography.primary, .consent-item-bullet {
+    color: var(--primaryColor);
+}
